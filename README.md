@@ -48,9 +48,17 @@ It also includes the following entry:
 Where "%s" is the date the database has been created.
 
 ## Dependencies
+
 To create the database it is necessary to have installed the following programs.
 
 - bash
 - python3
 - unzip
+- wget
 
+## Database Generation
+
+From the root directory of the project execute the following commands
+
+    ./scripts/download.sh
+    ./scripts/create.sh
